@@ -1,0 +1,29 @@
+:host([orientation='vertical']) [part='tabs']{
+    margin:  0px  0px !important;
+}
+.home{
+    min-height: 100vh;
+}
+
+vaadin-select::part(input-field){
+    width: 160px;
+    background-color: transparent;
+}
+
+vaadin-select-overlay{
+    background-color: transparent !important;
+}
+.h-95{
+    height: calc(100vh - 70px);
+}
+.profile-div{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.profile-name{
+    background-color: rgb(33, 98, 98);
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 50%;
+}

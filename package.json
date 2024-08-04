@@ -4,6 +4,8 @@
   "type": "module",
   "dependencies": {
     "@polymer/polymer": "3.5.1",
+    "@reduxjs/toolkit": "^2.2.7",
+    "@types/react-router-dom": "^5.3.3",
     "@vaadin/bundles": "24.4.4",
     "@vaadin/common-frontend": "0.0.19",
     "@vaadin/hilla-file-router": "24.4.4",
@@ -23,20 +25,28 @@
     "@vaadin/vaadin-material-styles": "24.4.4",
     "@vaadin/vaadin-themable-mixin": "24.4.4",
     "@vaadin/vaadin-usage-statistics": "2.1.2",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
     "construct-style-sheets-polyfill": "3.1.0",
     "date-fns": "2.29.3",
     "lit": "3.1.4",
     "proj4": "2.11.0",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "react-router-dom": "6.23.1"
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.23.1",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
     "@babel/preset-react": "7.24.7",
     "@rollup/plugin-replace": "5.0.7",
     "@rollup/pluginutils": "5.1.0",
-    "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-redux": "^7.1.33",
     "@vaadin/hilla-generator-cli": "24.4.4",
     "@vaadin/hilla-generator-core": "24.4.4",
     "@vaadin/hilla-generator-plugin-backbone": "24.4.4",
@@ -48,7 +58,8 @@
     "@vaadin/hilla-generator-utils": "24.4.4",
     "@vitejs/plugin-react": "4.3.1",
     "async": "3.2.5",
-    "glob": "11.0.0",
+    "esbuild": "^0.23.0",
+    "glob": "10.4.1",
     "rollup-plugin-brotli": "3.1.0",
     "rollup-plugin-visualizer": "5.12.0",
     "strip-css-comments": "5.0.0",
@@ -107,7 +118,7 @@
       "@vaadin/hilla-generator-utils": "24.4.4",
       "@vitejs/plugin-react": "4.3.1",
       "async": "3.2.5",
-      "glob": "11.0.0",
+      "glob": "10.4.1",
       "rollup-plugin-brotli": "3.1.0",
       "rollup-plugin-visualizer": "5.12.0",
       "strip-css-comments": "5.0.0",
@@ -119,7 +130,7 @@
       "workbox-core": "7.1.0",
       "workbox-precaching": "7.1.0"
     },
-    "hash": "0de14672d55abf68c4358c0787774f8311ec4ddf83bed15ba45b727072bbb3cf"
+    "hash": "983a88b11338a7b603bfe99ff0584cbcce04446eb814a06ecfec68dd8a57b8c7"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -159,6 +170,15 @@
     "@vaadin/react-components-pro": "$@vaadin/react-components-pro",
     "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
     "@vaadin/vaadin-lumo-styles": "$@vaadin/vaadin-lumo-styles",
-    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles"
+    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
+    "bootstrap": "$bootstrap",
+    "react-bootstrap": "$react-bootstrap",
+    "react-icons": "$react-icons",
+    "@reduxjs/toolkit": "$@reduxjs/toolkit",
+    "@types/react-router-dom": "$@types/react-router-dom",
+    "axios": "$axios",
+    "react-redux": "$react-redux",
+    "redux": "$redux",
+    "redux-persist": "$redux-persist"
   }
 }
